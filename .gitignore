@@ -1,0 +1,5 @@
+postgres
+package-lock.json
+node_modules
+.env
+settings.json

@@ -5,8 +5,8 @@ const router = express.Router();
 
 router.post('/registration', UserController.registrationUser);
 router.post('/login', UserController.loginUser);
-router.get('/users:email', UserController.getAllUsers);
-router.delete('/users:email/:userEmail', UserController.deleteUserByEmail);
+router.get('/users/:email', UserController.getAllUsers);
+router.delete('/users/:email/:userEmail', UserController.deleteUserByEmail);
 
 
 export default router;
